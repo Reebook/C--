@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 #include <ctime>
 
@@ -41,7 +41,7 @@ cout<<"digite anno"<<endl;cin>>anoo;
 	}
 	dia2=(dia-1)%90;
 	mes2=mes;
-	cout<<"fecha         "<<dia2<<"/"<<mes2<<"/"<<a�o<<endl;
+	cout<<"fecha  "<<dia2<<"/"<<mes2<<"/"<<ano<<endl;
 	 comparaFecha(dia2,mes2);
 }
    system("pause");
