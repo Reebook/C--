@@ -21,11 +21,11 @@ void comparaFecha(int dia,int mes){
 
 int main() {   
 //-------------------------------------------------------------------------------
-   int dia2=0,dia=0,mes2=0,mes=0,año=0,a=1;
+   int dia2=0,dia=0,mes2=0,mes=0,ano=0,a=1;
 while(a==1){
 cout<<"digite dia"<<endl;cin>>dia;
 cout<<"digite mes"<<endl;cin>>mes;
-cout<<"digite anno"<<endl;cin>>año;
+cout<<"digite anno"<<endl;cin>>anoo;
 	for(int i=0;i<=90;i++){
 		if(dia==30||dia==60||dia==90||){
 		mes++;
@@ -41,7 +41,7 @@ cout<<"digite anno"<<endl;cin>>año;
 	}
 	dia2=(dia-1)%90;
 	mes2=mes;
-	cout<<"fecha         "<<dia2<<"/"<<mes2<<"/"<<año<<endl;
+	cout<<"fecha         "<<dia2<<"/"<<mes2<<"/"<<aï¿½o<<endl;
 	 comparaFecha(dia2,mes2);
 }
    system("pause");
